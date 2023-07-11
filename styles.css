@@ -70,4 +70,10 @@ div#tswfooter {
 	display: block;
 	width: 77%;
   }
+.maps {
+	margin-left: auto;
+	margin-right: auto;
+	width: 873px;
+	height: 873px;
+  }
 ;
