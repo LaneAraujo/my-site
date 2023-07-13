@@ -1,0 +1,24 @@
+* {
+    text-align: center;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    width: 200px;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#face {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 5px solid grey;
+    font-size: 80px;
+    border-radius: 10px;
+}
