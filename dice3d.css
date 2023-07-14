@@ -165,3 +165,13 @@ background: hsla(0, 85%, 50%, 0.8);
 #cube .bottom {
     transform: rotateX(-90deg) translateZ(100px);
 }
+
+.container {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto 40px;
+    border: 0px solid #fff;
+    perspective: 1000px;
+    perspective-origin: 50% 100%;
+}
