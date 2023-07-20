@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="weather.css">
 </head>
 <body>
-    <button onclick="loadWeather()">LOAD WEATHER</button>
+    <!-- <button onclick="loadWeather()">LOAD WEATHER</button> -->
     <h2 id="location">LOCATION</h2>
     <p id="condition">CONDITION</p>
     <p><b>Temperature:</b></p>
@@ -19,7 +19,11 @@
     <p id="tempmin">TEMPMIN</p>
     <p><b>Maximum:</b></p>
     <p id="tempmax">TEMPMAX</p>
-    <p id="jsontext">JSON GOES HERE</p>
+    <p id="x">test</p>
+    <p id="y">test</p>
+    <p onclick="maplocation(event)"><img id="globe" src="earth.jfif" alt="earth" style="width: 360px;"" ></p>
     <script src="weather.js"></script>
+    <script src="weathermap.js"></script>
+    <p id="jsontext">JSON GOES HERE</p>
 </body>
 </html>

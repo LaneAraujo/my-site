@@ -1,6 +1,4 @@
 const APIKEY = "c7f30984e0c270923cbf89c58ce5e2d0";
-let lat = 42.271389;
-let lon = -71.798889;
 const UNITS = "imperial";
 const COUNT = 16
 const WEATHERURL = `https://api.openweathermap.org/data/2.5/
